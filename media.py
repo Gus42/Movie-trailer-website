@@ -1,7 +1,7 @@
 import webbrowser
 
 #create class Movie
-class Movie():
+class Movie(object):
     """
     Class Movie has a constructor with title, storyline, poster, trailer, director of the movie.
     And it has a function show_trailer.
